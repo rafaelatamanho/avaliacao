@@ -5,16 +5,48 @@ box-sizing: border-box;
 }
 
 /* Estilos gerais */
-body {
+.body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Estilos do cabelhaço */
-header {
+.header {
     background-color: rgb(47, 47, 172);
     text-align: center;
     padding: 20px;
 }
-header h1, header h2 {
+.header h1, header h2 {
     color: rgb(25, 25, 61);
+}
+/* Estilo do corpo do site*/
+main {
+    background-color: rgb(34, 34, 180);
+    padding: 20px;
+}
+
+.gifs {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.gif {
+    margin: 10px;
+}
+.gif img {
+    max-width: 100px;
+}
+.main p {
+    text-align: center;
+}
+
+/*Estilos do rodapé*/
+.footer {
+    background-color: rgb(42, 42, 167);
+    padding: 10px;
+    text-align: center;
+}
+.blockquote {
+    font-style: italic;
 }
